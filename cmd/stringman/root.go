@@ -7,9 +7,12 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var version = "0.0.1"
+
 var rootCmd = &cobra.Command{
-	Use:   "stringman",
-	Short: "stringman - a simple CLI to transform and inspect strings",
+	Use:     "stringman",
+	Version: version,
+	Short:   "stringman - a simple CLI to transform and inspect strings",
 	Long: `stringman is a super fancy CLI (kidding)
    
 One can use stringman to modify or inspect strings straight from the terminal`,
