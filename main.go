@@ -1,6 +1,6 @@
 package main
 
-import "github.com/aniqaqill/stringman/cmd/stringman"
+import "github.com/aniqaqill/pkg/stringman"
 
 func main() {
 	stringman.Execute()

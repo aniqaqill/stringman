@@ -1,4 +1,4 @@
-module github.com/ThorstenHans/stringer
+module github.com/aniqaqill/stringman
 
 go 1.23.1
 
